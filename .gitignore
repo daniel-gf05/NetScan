@@ -1,0 +1,13 @@
+**/node_modules/
+**/package-lock.json
+esp/build/
+esp/sdkconfig
+esp/sdkconfig.old
+.env
+**/Vite/.env
+backend/scan_history.csv
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj

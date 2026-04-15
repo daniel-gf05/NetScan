@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-init": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc -p .",
+    "dev": "nodemon src/server.ts"
+  }
+}
